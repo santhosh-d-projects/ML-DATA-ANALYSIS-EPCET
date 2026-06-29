@@ -1,15 +1,7 @@
 # 🤖 ML Data Analysis — EPCET
 
-<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2.0%2B-150458?logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.7%2B-11557c)
-![Seaborn](https://img.shields.io/badge/Seaborn-0.12%2B-4c72b0)
 
-**Python data analysis projects developed as part of the AIML Assignment at EPCET.**
-
-[📊 Projects](#-projects-included) • [🚀 How to Run](#-how-to-run) • [📦 Datasets](#-datasets) • [👨‍💻 Author](#-author)
 
 </div>
 
@@ -18,19 +10,6 @@
 ## 📌 Project Overview
 
 This repository contains **multiple Python data analysis projects** developed as part of an AI/ML Assignment. Each project performs real-world data analysis using **Pandas**, **Matplotlib**, and **Seaborn** — covering Indian datasets on COVID-19, LPG consumption, cancer statistics, and traffic violations.
-
----
-
-## 🛠️ Technologies Used
-
-| Tool | Purpose |
-|------|---------|
-| **Python 3.10+** | Core programming language |
-| **Pandas** | Data loading, cleaning & aggregation |
-| **NumPy** | Numerical operations |
-| **Matplotlib** | Bar charts and static visualizations |
-| **Seaborn** | Statistical data visualization |
-| **OpenPyXL** | Reading `.xlsx` Excel files |
 
 ---
 
@@ -118,49 +97,6 @@ python "Python Codes/data.py"       # COVID-19 Analysis
 python "Python Codes/lpg.py"        # LPG Migration Analysis
 python "Python Codes/cancer.py"     # Cancer Analysis
 python "Python Codes/driving.py"    # Traffic Violations Analysis
-```
-
----
-
-## 📁 Repository Structure
-
-```
-ML-DATA-ANALYSIS-EPCET/
-│
-├── 📂 Python Codes/
-│   ├── cancer.py                                # Cancer statewise analysis
-│   ├── data.py                                  # COVID-19 data analysis
-│   ├── driving.py                               # Indian traffic violations analysis
-│   └── lpg.py                                   # LPG statewise migration analysis
-│
-├── 📂 Datasets/
-│   ├── Cancer_Statewise_Dataset_500_Rows.xlsx   # Dataset - Cancer
-│   ├── covid_19_india.csv                       # Dataset - COVID-19
-│   ├── covid_19_india.xlsx                      # Dataset - COVID-19 (Excel)
-│   ├── Indian_Traffic_Violations.csv            # Dataset - Traffic violations
-│   ├── India_lpg_dataset.csv                    # Dataset - India LPG
-│   └── LPG_Statewise_Migration_Dataset_500_Rows.csv # Dataset - LPG migration
-│
-├── 📂 Documentation/
-│   └── assignment.pdf                           # Assignment screenshots (documentation)
-│
-├── 📂 Images/
-│   └── .gitkeep                                 # Placeholder (charts saved here when scripts run)
-│
-├── 📄 requirements.txt                           # Python dependencies
-└── 📄 README.md
-```
-
----
-
-## 📚 Libraries Used
-
-```
-pandas >= 2.0.0
-matplotlib >= 3.7.0
-seaborn >= 0.12.0
-numpy >= 1.24.0
-openpyxl >= 3.1.0
 ```
 
 ---
