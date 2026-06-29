@@ -1,8 +1,11 @@
+import os
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-data = pd.read_csv(r"C:\Users\santh\Downloads\LPG_Statewise_Migration_Dataset_500_Rows.csv")
+# Define relative path to dataset
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+data = pd.read_csv(os.path.join(BASE_DIR, "..", "Datasets", "LPG_Statewise_Migration_Dataset_500_Rows.csv"))
 
 print(data.describe())
 

@@ -1,9 +1,12 @@
+import os
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
 
-data = pd.read_csv(r"C:\Users\santh\Downloads\archive (2)\Indian_Traffic_Violations.csv")
+# Define relative path to dataset
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+data = pd.read_csv(os.path.join(BASE_DIR, "..", "Datasets", "Indian_Traffic_Violations.csv"))
 
 print(data.describe())
 

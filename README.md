@@ -114,10 +114,10 @@ cd ML-DATA-ANALYSIS-EPCET
 pip install -r requirements.txt
 
 # 3. Run any script
-python data.py       # COVID-19 Analysis
-python lpg.py        # LPG Migration Analysis
-python cancer.py     # Cancer Analysis
-python driving.py    # Traffic Violations Analysis
+python "Python Codes/data.py"       # COVID-19 Analysis
+python "Python Codes/lpg.py"        # LPG Migration Analysis
+python "Python Codes/cancer.py"     # Cancer Analysis
+python "Python Codes/driving.py"    # Traffic Violations Analysis
 ```
 
 ---
@@ -127,21 +127,28 @@ python driving.py    # Traffic Violations Analysis
 ```
 ML-DATA-ANALYSIS-EPCET/
 │
-├── data.py                                      # COVID-19 data analysis
-├── lpg.py                                       # LPG statewise migration analysis
-├── cancer.py                                    # Cancer statewise analysis
-├── driving.py                                   # Indian traffic violations analysis
+├── 📂 Python Codes/
+│   ├── cancer.py                                # Cancer statewise analysis
+│   ├── data.py                                  # COVID-19 data analysis
+│   ├── driving.py                               # Indian traffic violations analysis
+│   └── lpg.py                                   # LPG statewise migration analysis
 │
-├── covid_19_india.csv                           # Dataset - COVID-19
-├── covid_19_india.xlsx                          # Dataset - COVID-19 (Excel)
-├── LPG_Statewise_Migration_Dataset_500_Rows.csv # Dataset - LPG migration
-├── India_lpg_dataset.csv                        # Dataset - India LPG
-├── Cancer_Statewise_Dataset_500_Rows.xlsx       # Dataset - Cancer
-├── Indian_Traffic_Violations.csv                # Dataset - Traffic violations
+├── 📂 Datasets/
+│   ├── Cancer_Statewise_Dataset_500_Rows.xlsx   # Dataset - Cancer
+│   ├── covid_19_india.csv                       # Dataset - COVID-19
+│   ├── covid_19_india.xlsx                      # Dataset - COVID-19 (Excel)
+│   ├── Indian_Traffic_Violations.csv            # Dataset - Traffic violations
+│   ├── India_lpg_dataset.csv                    # Dataset - India LPG
+│   └── LPG_Statewise_Migration_Dataset_500_Rows.csv # Dataset - LPG migration
 │
-├── assignment.pdf                               # Assignment screenshots (documentation)
-├── requirements.txt                             # Python dependencies
-└── README.md
+├── 📂 Documentation/
+│   └── assignment.pdf                           # Assignment screenshots (documentation)
+│
+├── 📂 Images/
+│   └── .gitkeep                                 # Placeholder (charts saved here when scripts run)
+│
+├── 📄 requirements.txt                           # Python dependencies
+└── 📄 README.md
 ```
 
 ---

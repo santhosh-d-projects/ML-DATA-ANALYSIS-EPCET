@@ -1,7 +1,10 @@
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_excel(r"C:\Users\santh\Downloads\Cancer_Statewise_Dataset_500_Rows.xlsx")
+# Define relative path to dataset
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+data = pd.read_excel(os.path.join(BASE_DIR, "..", "Datasets", "Cancer_Statewise_Dataset_500_Rows.xlsx"))
 
 df = data[['State', 'Cured_Cases', 'Deaths']]
 
