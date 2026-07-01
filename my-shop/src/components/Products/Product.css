@@ -1,0 +1,131 @@
+.product span {
+	font-size: 20px;
+	display: flex;
+
+}
+
+.wrapper {
+	
+	font-size: 30px;
+	display: flex;
+	float: inherit;
+	background-color: skyblue;
+
+}
+
+.wrapper button {
+	font-size: 20px;
+	background-color: blue;
+	border-radius: 10px;
+	border-color: red;
+	background-color: navajowhite;
+	padding: 5;
+	margin: 10px;
+	justify-content: space-evenly;
+
+}
+.wrapper button :hover {
+	background-color: yellow;
+	border-radius: 5px;
+}
+
+.div2 :hover {
+	background-color: white;
+	border-radius: 20px;
+}
+
+.div2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  border: solid red 5px;
+  border-color: darkblue;
+  margin-top: 100px;
+  align-content: center;
+  margin-right: 150px;
+  background-color: aqua;
+
+
+}
+
+.div1{
+	border:  solid red 5px;
+	height: 200px;
+	width: 280px;
+	padding: 20px;
+	align-content: center;
+	margin-left: 10px;
+	background-color: yellow;
+}
+
+.div3{
+	border:  solid red 5px;
+	height: 200px;
+	width: 280px;
+	padding: 20px;
+	align-content: center;
+	margin-left: 10px;
+	background-color: yellow;
+}
+
+.div4{
+	border:  solid red 5px;
+	height: 200px;
+	width: 280px;
+	padding: 20px;
+	align-content: center;
+	margin-left: 10px;
+	background-color: yellow;
+}
+
+.div5{
+	border:  solid red 5px;
+	height: 200px;
+	width: 280px;
+	padding: 20px;
+	align-content: center;
+	margin-left: 10px;
+	background-color: yellow;
+}
+
+.div6{
+	border:  solid red 5px;
+	height: 200px;
+	width: 280px;
+	padding: 20px;
+	align-content: center;
+	margin-left: 10px;
+	background-color: yellow;
+
+}
+
+.div7{
+	border:  solid red 5px;
+	height: 200px;
+	width: 280px;
+	padding: 20px;
+	align-content: center;
+	margin-left: 10px;
+	background-color: yellow;
+}
+
+.div8{
+	border:  solid red 5px;
+	height: 200px;
+	width: 280px;
+	padding: 20px;
+	align-content: center;
+	margin-left: 10px;
+	background-color: yellow;
+}
+
+.div11 {
+	align-content: center;
+}
+
+.main_div {
+	margin-top: -30px;
+	justify-content: center;
+
+}
