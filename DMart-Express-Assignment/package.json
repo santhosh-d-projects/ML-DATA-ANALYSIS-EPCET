@@ -1,0 +1,24 @@
+{
+  "name": "dmart-management-api",
+  "version": "1.0.0",
+  "description": "Simple DMart Management REST API using Node.js, Express.js, and Express Router.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "rest-api",
+    "dmart"
+  ],
+  "author": "Santhosh D",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
