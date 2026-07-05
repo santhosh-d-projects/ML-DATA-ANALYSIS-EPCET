@@ -1,0 +1,13 @@
+{
+  "name": "college-management",
+  "version": "1.0.0",
+  "description": "College management MySQL database project.",
+  "main": "dbcollege.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "start": "node display.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.22.5"
+  }
+}
